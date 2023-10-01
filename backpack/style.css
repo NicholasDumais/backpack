@@ -47,6 +47,10 @@ nav {
     width: 75%;
 }
 
+.col-875 {
+    width: 87.5%;
+}
+
 footer {
     width: 100%;
 }
@@ -59,7 +63,7 @@ footer {
     padding: 5px;
 }
 
-.nav, .col-2, .col-3, .col-4, .col-8, .col-75, .foot{
+.nav, .col-2, .col-3, .col-4, .col-8, .col-75, .col-875, .foot{
     height: 100px;
     background-color: gray;
     margin: 5px;
