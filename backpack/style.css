@@ -70,6 +70,12 @@ footer {
     padding: 5px;
 }
 
+.nav, .foot, .col-1, .col-2, .col-3, .col-4, .col-75, .col-875, .col-8 {
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+}
+
 @media only screen and (max-width: 600px) {
     .row {
         flex-direction: column;
