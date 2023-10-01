@@ -2,6 +2,10 @@ body {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .page {
     width: 100%;
 }
@@ -10,20 +14,24 @@ nav {
     width: 100%;
 }
 
-.nav {
-}
-
-.nav ul {
+nav ul {
     list-style: none;
 }
 
-.nav ul li {
+nav ul li {
     display: inline-block;
+}
+
+.nav {
 }
 
 .row {
     width: 100%;
     display: flex;
+}
+
+.col-1 {
+    width: 100%;
 }
 
 .col-2 {
@@ -62,13 +70,11 @@ footer {
     padding: 5px;
 }
 
-.nav, .foot {
-    height: 100px;
-    background-color: gray;
-}
-.col-2, .col-3, .col-4, .col-8, .col-75, .col-875{
-    height: 100px;
-    background-color: gray;
-    margin: 5px;
-    padding: 5px;
+@media only screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+    .col-1, .col-2, .col-3, .col-4, .col-75, .col-875, .col-8 {
+        width: 100%;
+    }
 }
