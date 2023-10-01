@@ -2,6 +2,11 @@ body {
     margin: 0px;
 }
 
+/* FIXED BREAK: Height of the overlap element */
+.fixed-break {
+    margin-top: 110px;
+}
+
 a {
     text-decoration: none;
 }
@@ -23,6 +28,8 @@ nav ul li {
 }
 
 .nav {
+    position: fixed;
+    top: 0;
 }
 
 .row {
