@@ -7,12 +7,10 @@ body {
 }
 
 nav {
-    display: flex;
     width: 100%;
 }
 
 .nav {
-    background-color: gray;
 }
 
 .nav ul {
@@ -21,19 +19,12 @@ nav {
 
 .nav ul li {
     display: inline-block;
-    margin: 5px;
     color: white;
 }
 
 .row {
     width: 100%;
     display: flex;
-}
-
-.col-2, .col-3, .col-4 {
-    height: 100px;
-    background-color: gray;
-    margin: 5px;
 }
 
 .col-2 {
@@ -48,11 +39,29 @@ nav {
     width: 25%;
 }
 
+.col-8 {
+    width: 12.5%;
+}
+
+.col-75 {
+    width: 75%;
+}
+
 footer {
     width: 100%;
 }
 
 .foot {
+}
+
+.box {
+    margin: 5px;
+    padding: 5px;
+}
+
+.nav, .col-2, .col-3, .col-4, .col-8, .col-75, .foot{
     height: 100px;
     background-color: gray;
+    margin: 5px;
+    padding: 5px;
 }
