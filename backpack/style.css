@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+}
+
+.page {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.nav {
+    background-color: gray;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 5px;
+    color: white;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col-2, .col-3, .col-4 {
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33%;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+footer {
+    width: 100%;
+}
+
+.foot {
+    height: 100px;
+    background-color: gray;
+}
