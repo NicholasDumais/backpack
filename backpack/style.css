@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 /* FIXED BREAK: Height of the overlap element */
@@ -9,6 +9,10 @@ body {
 
 a {
     text-decoration: none;
+}
+
+ul {
+    padding: 0;
 }
 
 .page {
@@ -83,11 +87,11 @@ footer {
     margin: 5px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .row {
         flex-direction: column;
     }
-    .col-1, .col-2, .col-3, .col-4, .col-75, .col-875, .col-8 {
+    [class*="col-"] {
         width: 100%;
-    }
+      }
 }
