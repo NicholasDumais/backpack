@@ -73,15 +73,32 @@ footer {
     width: 100%;
 }
 
-.foot {
-}
-
 .box {
     margin: 5px;
     padding: 5px;
 }
 
-.nav, .foot, .col-1, .col-2, .col-3, .col-4, .col-75, .col-875, .col-8 {
+.center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.nav,
+.foot,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-75,
+.col-875,
+.col-8 {
     height: 100px;
     background-color: gray;
     margin: 5px;
@@ -91,7 +108,8 @@ footer {
     .row {
         flex-direction: column;
     }
+
     [class*="col-"] {
         width: 100%;
-      }
+    }
 }
